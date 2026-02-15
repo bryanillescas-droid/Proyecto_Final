@@ -1,0 +1,17 @@
+Como la parte de “Contexto” explica, la empresa de seguros "TK-U" enfrenta un problema en el cual, por falta de automatización en el proceso de cotización, dicho proceso está tomando mucho tiempo a sus empleados al tener que realizarlo manualmente, no generando más de 50 cotizaciones diarias. Para poder agilizar este proceso, se pide implementar ciertos requisitos en una aplicación base y así poder automatizarlo.
+
+Encontramos ciertos desafíos en la elaboración de la aplicación, ya que, aparte del precio base que el usuario debe pagar, se pueden agregar cargos adicionales dependiendo de ciertas condiciones y requisitos del usuario.
+
+Los requisitos son los siguientes:
+
+El usuario debe ser igual o mayor a 18 años de edad.
+
+Un cargo adicional es agregado dependiendo de la edad del usuario, en el cual, si el usuario está entre 18 y 24 años de edad, se agregará un cargo del 10% sobre el precio base.
+Si el usuario está entre 25 y 49 años, se agregará un cargo del 20% sobre el precio base.
+Y si el usuario tiene 50 años o más, se agregará un cargo del 30% sobre el precio base.
+
+Se tiene que tomar en cuenta si el usuario está casado y cuántos años tiene el cónyuge del usuario, ya que un cargo individual se agregará por el cónyuge dependiendo de su edad, usando los mismos criterios establecidos anteriormente.
+
+Por último, se debe tomar en cuenta si el usuario tiene hijos o no, ya que, de tenerlos, se agregará un cargo adicional del 20% sobre el precio base por cada uno de los hijos.
+
+En conclusión, el sistema deberá calcular el costo total de la póliza considerando el precio base y los recargos aplicables según las condiciones personales del solicitante.

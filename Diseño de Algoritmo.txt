@@ -1,0 +1,51 @@
+Algoritmo para Aplicacion de cotizaciones. 
+
+Para este Algoritmo se tomara en cuenta que ya se tienen declarados los "prompts" en los cuales se solicitara la informacion al usuario. 
+
+1. Verificar que la edad del usuario sea igual o mayor a 18. 
+
+  verdad, continuar al paso 2. 
+
+  falso, finalizar cotizaciones. 
+
+
+2. Veriricar el rango de edad y calcular el cargo adicional basados en el input de edad del usuario o conyuge.
+
+  si, edad es igual o mayor a 18 Y menor a 25 entonces, agregar un 10% de recargo. 
+  Sumar recargo a la cantidad de recargo total.
+
+  si, edad es igual o mayor a 25 Y menor a 50 entonces, agregar un 20% de recargo. 
+  Sumar recargo a la cantidad de recargo total.
+
+  si, edad es igual o mayor a 50 entonces, agregar un 30% de recargo.  
+  Sumar recargo a la cantidad de recargo total. 
+
+
+3. Verificar si el usuario es casad@?
+
+  si, solicitar la edad del conyuge.
+  
+  si, edad es igual o mayor a 18 Y menor a 25 entonces, agregar un 10% de recargo. 
+  Sumar recargo a la cantidad de recargo total.
+
+  si, edad es igual o mayor a 25 Y menor a 50 entonces, agregar un 20% de recargo. 
+  Sumar recargo a la cantidad de recargo total.
+
+  si, edad es igual o mayor a 50 entonces, agregar un 30% de recargo.  
+  Sumar recargo a la cantidad de recargo total. 
+
+  no, no se agrega ningun cargo. 
+
+
+4. Verificar cuantos hijos tiene el usuario y calcular cargo adicional por hij@s dentro de la misma poliza. 
+
+  Si, la cantidad de hij@s es mayor o igual a 1, entonces el cargo seria del 20% sobre el precio base.  
+  Sumar el cargo a los cargos totales. 
+
+  no, no se agrega ningun cargo.
+
+
+5. Calcular el monto a pagar de la poliza. 
+
+  suma el precio base mas el total de los cargos adicionales. 
+
